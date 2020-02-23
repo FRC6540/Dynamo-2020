@@ -102,7 +102,7 @@ public class ControlPanel extends Subsystem {
 	public boolean enabled;
 
 	void spinUntil(String color) {
-
+		
 	}
 
 	void enable() {
