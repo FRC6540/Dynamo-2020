@@ -66,5 +66,11 @@ public class BallLauncher extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 
+	public void shoot() {
+		flyWheel.set(1.0);
+	}
+	public void stop(){
+		flyWheel.set(0.0);
+	}
 }
 
