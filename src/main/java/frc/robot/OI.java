@@ -78,6 +78,7 @@ public class OI {
 		a.whenPressed(new RetractClimber());
 
 		// SmartDashboard Buttons
+		SmartDashboard.putData("Auto Command Group", new AutoCommandGroup());
 		SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
 		SmartDashboard.putData("Extend Climber", new ExtendClimber());
 		SmartDashboard.putData("Retract Climber", new RetractClimber());
