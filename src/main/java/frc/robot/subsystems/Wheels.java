@@ -103,7 +103,7 @@ public class Wheels extends Subsystem {
 	// here. Call these from Commands.
 	public String mode = "arcade";
 
-	public void forward(float straight, float turn) {
+	public void Drive(float straight, float turn) {
 		SmartDashboard.putNumber("Acceleration", straight);
 		SmartDashboard.putNumber("Turn", turn);
 		switch (mode) {
@@ -120,5 +120,8 @@ public class Wheels extends Subsystem {
 			break;
 		}
 		// wheels.arcadeDrive(straight, turn);
+	}
+	public void reset() {
+		wheels.arcadeDrive(0.0, 0.0);
 	}
 }
