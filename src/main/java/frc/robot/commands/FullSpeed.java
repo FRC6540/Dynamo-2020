@@ -38,6 +38,7 @@ public class FullSpeed extends InstantCommand {
 	// Called once when this command runs
 	@Override
 	protected void initialize() {
+		Robot.wheels.set_full();
 	}
 
 }
