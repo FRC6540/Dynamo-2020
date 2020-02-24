@@ -69,7 +69,7 @@ public class Wheels extends Subsystem {
 		addChild("Left Motor Group", leftMotorGroup);
 
 		wheels = new DifferentialDrive(rightMotorGroup, frontRight);
-		addChild("Differential Drive 1", wheels);
+		addChild("wheels", wheels);
 		wheels.setSafetyEnabled(true);
 		wheels.setExpiration(0.1);
 		wheels.setMaxOutput(1.0);
