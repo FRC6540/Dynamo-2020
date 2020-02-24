@@ -121,6 +121,7 @@ public class Wheels extends Subsystem {
 		}
 		// wheels.arcadeDrive(straight, turn);
 	}
+
 	public void reset() {
 		wheels.arcadeDrive(0.0, 0.0);
 	}
