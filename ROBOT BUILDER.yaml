@@ -481,13 +481,13 @@ Children:
           name: Command
           type: Command
           validators: *id017
-          value: Temp Command
+          value: Toggle Speed
         When to Run: !!robotbuilder.data.properties.ChoicesProperty
           choices: *id018
           default: whileHeld
           name: When to Run
           validators: null
-          value: whileHeld
+          value: whenPressed
       Base: Joystick Button
       Name: B
     - Children: []
