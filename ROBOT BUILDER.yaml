@@ -842,7 +842,7 @@ Children:
         value: *id022
       Button on SmartDashboard: !!robotbuilder.data.properties.BooleanProperty {default: true,
         name: Button on SmartDashboard, validators: null, value: true}
-    Base: Command
+    Base: Instant Command
     Name: Full Speed
   - Children: []
     Properties:
@@ -864,7 +864,7 @@ Children:
         value: *id023
       Button on SmartDashboard: !!robotbuilder.data.properties.BooleanProperty {default: true,
         name: Button on SmartDashboard, validators: null, value: true}
-    Base: Command
+    Base: Instant Command
     Name: Half Speed
   Properties: {}
   Base: Commands
